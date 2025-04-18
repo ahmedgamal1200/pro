@@ -1,0 +1,161 @@
+
+.web-title {
+    position: relative;
+    cursor: pointer;
+   
+    
+}
+.get{
+    width:130px;
+    font-size:50px;
+    font-style:oblique;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.web-title-wrapper {
+    padding:  10px 50px;
+}
+.welcome-back {
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 131px);
+    font-size: 40px;
+    font-weight: 300;
+    color: #db1bbe;
+}
+
+
+
+
+
+.sign-in1 {
+
+    position: absolute;
+    top: 430px;
+    left:25% ;
+    transition: .5s;
+    background-color: #db1bbe;
+    width: 50%;
+    height: 49px;
+    display: flex;
+ color: aliceblue;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 22px;
+    cursor: pointer;
+    border-radius: 22px;
+    font-size: larger;
+    
+  
+    text-align: center;
+}
+.sign-in1:hover {
+    color: antiquewhite;
+    background-color: #a1188c;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 70%;
+    left:15% ;
+}
+
+input{
+    transition: .3s;
+}
+
+input:focus{
+    width: 90%;
+  
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.dont-have-an-container a{
+    transition: .3s;
+    color: #db1bbe;
+    cursor: pointer;
+   
+text-decoration: none;
+}
+.dont-have-an-container a:hover{
+ 
+    color: #db1bbe;
+   font-size: large;
+text-decoration: none;
+cursor: pointer;
+}
+.dont-have-an-container {
+    position: absolute;
+    top: 500px;
+    left: 44px;
+    font-size: 16px;
+    color: #000;
+}
+
+    .welcome-back-parent {
+        position: absolute;
+        top: 187px;
+        margin-left: 15% ;
+        border-radius: 5px;
+        background-color: rgba(255,255,255,.8);
+        width: 70%;
+        height: 550px;
+        overflow: hidden;
+        font-size: 20px;
+        color: #232325;
+        border-radius: 42px;
+      
+}
+
+
+body {
+    width: 100%;
+    position: relative;
+    height: 1024px;
+ 
+    background-image: url('WhatsApp\ Image\ 2024-10-13\ at\ 21.57.12_46e2a1f1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 80px;
+    color:rgba(red, rgb(222, 232, 222), rgb(203, 203, 215), alpha);
+    font-family: Poppins;
+    
+}
+.email{
+    position: relative;
+    top: 120px;
+    left: 7px;
+    text-align: center;
+}
+.password{
+    position: relative;
+    top: 180px;
+    left: 9px; 
+    text-align: center;
+}
+input{
+    height: 43px;
+    width: 70%;
+    border-radius: 22px;
+    font-size: larger;
+    text-align: center;
+}
+p{
+    position: relative;
+    left:-30%;
+    font-size: larger;
+}
+h1{
+    font-size: 77px;
+}

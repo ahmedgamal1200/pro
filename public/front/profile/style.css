@@ -1,0 +1,334 @@
+*.frame-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 2214px;
+}
+
+.get{
+    width:100px;
+    font-size:28px;
+    font-style:oblique;
+    position: absolute;
+    top: 0px;
+    left: 4%;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.web-title-wrapper {
+    padding:  10px 50px;
+}
+.navbar{
+    /*overflow: hidden;*/
+    display: none;
+    background-color:rgba(222, 61, 182, 0.1);
+    height: 82px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 12px;
+}
+.navbar a {
+    color: #db1bbe;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #db1bbe;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-a  {
+    background-color: #db1bbe;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.navbar .menu {
+    display: flex;
+    position: relative;
+}
+
+.navbar .menu a {
+    margin-left: -10px;
+}
+.HOME{
+    overflow: hidden;
+    width: 70%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(190, 24, 162, 0.1), rgba(255, 255, 255, 0)), radial-gradient(50% 50% at 50% 50%, rgba(7, 155, 254, 0.1), rgba(255, 255, 255, 0)), #fff;
+
+    height: 100vh;
+    margin-left: 17.5%;
+}
+.content{
+    overflow: auto;
+position: relative;
+width: 100%;
+height: 100%;
+overflow-x: hidden;
+border-radius: 23px;
+scrollbar-width: none;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+object-fit: cover;
+}
+.profile-item {
+    position: relative;
+    top: 0px;
+  border-radius: 11px;
+    width: 100%;
+
+
+    overflow: hidden;
+}
+#user-name-input{
+    width: 99px;
+    border-radius: 22px;
+    text-align: center;
+    display: none;
+
+}
+.ellipse-icon {
+    position: relative;
+ margin-top: -20%;
+ left: 2%;
+
+    border-radius: 50%;
+    width: 26%;
+    box-shadow: 10px 20px 30px   #db1bbe;
+    object-fit: cover;
+}
+.user-name {
+
+    position: relative;
+ display: flex;
+ flex-direction: column;
+    left:40%;
+    margin-top: -10%;
+    font-size: 90%;
+    height: 20px;
+    width: 111px;
+
+}
+
+#user-name-b{
+
+text-align: left;
+}
+
+.his-job {
+    position: relative;
+left: 35%;
+   width: 222px;
+margin-top: 3%;
+
+
+}
+#his-job-pre{
+margin: 0px;
+ overflow: hidden;
+    width: 100%;
+   font-size: 17px;
+
+}
+#his-job-input{
+position: relative;
+   width: 221px;
+height: 50px;
+  border-radius: 11px;
+
+    display: none;
+}
+
+#edit-profile {
+    position: relative;
+ top: 35%;
+right:0%;
+ text-align: center;
+    text-transform: uppercase;
+    color: #db1bbe;
+    width: 80%;
+    transition: .3s;
+  font-size: 15px;
+}
+.line{
+    border-top:solid #dcc6d7 ;
+    position: relative;
+width: 100vw;
+
+}
+
+#edit-profile:hover{
+    cursor: pointer;
+    width: 93%;
+    letter-spacing: .7px;
+    color: #fff;
+    background-color: #db1bbe;
+    border-radius: 5px;
+}
+.back1{
+    position: relative;
+margin-top: 21%;
+margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 65;
+
+    height: 80vh;
+
+   gap: 3px;
+}
+.about {
+   display: flex;
+   flex-direction: column;
+  gap: 3px;
+    border-top: solid #d391be;
+    border-bottom: solid #d391be;
+     width: 100%;
+    height: 23vh;
+     font-size: 18px;
+     border-radius: 11px;
+     background: radial-gradient(50% 50% at 50% 50%, rgba(190, 24, 162, 0.1), rgba(255, 255, 255, 0)), radial-gradient(50% 50% at 50% 50%, rgba(7, 155, 254, 0.1), rgba(255, 255, 255, 0)), #fff;
+
+ }
+
+.about h2 {
+    position: relative;
+    top:5%;
+    font-size: 19px;
+    left:3%;
+    color: #db1bbe;
+}
+.me{
+    position: relative;
+    top: 8%;
+    left: 9%;
+    font-size: 14px;
+    line-height: 150%;
+  height: 30%;
+    width: 90%;
+
+}
+#about-input,#work-input,#skill-input,#educations-input{
+    position: relative;
+    top: 8%;
+    left: 9%;
+    font-size: 14px;
+    line-height: 150%;
+  height: 50%;
+    width: 90%;
+    /*display: none;*/
+}
+
+.educations{
+    border-top: solid #d391be;
+    border-bottom: solid #d391be;
+     width: 100%;
+    height: 20vh;
+     font-size: 18px;
+     border-radius: 11px;
+     background: radial-gradient(50% 50% at 50% 50%, rgba(190, 24, 162, 0.1), rgba(255, 255, 255, 0)), radial-gradient(50% 50% at 50% 50%, rgba(7, 155, 254, 0.1), rgba(255, 255, 255, 0)), #fff;
+
+}
+.educations h2 {
+    position: relative;
+    top:5%;
+    font-size: 19px;
+    left:3%;
+    color: #db1bbe;
+}
+.skill {
+    border-top: solid #d391be;
+    border-bottom: solid #d391be;
+     width: 100%;
+    height: 20vh;
+     font-size: 18px;
+     border-radius: 11px;
+     background: radial-gradient(50% 50% at 50% 50%, rgba(190, 24, 162, 0.1), rgba(255, 255, 255, 0)), radial-gradient(50% 50% at 50% 50%, rgba(7, 155, 254, 0.1), rgba(255, 255, 255, 0)), #fff;
+
+}
+.skill h2 {
+    position: relative;
+    top:5%;
+    font-size: 19px;
+    left:3%;
+    color: #db1bbe;
+}
+.projects {
+    border-top: solid #d391be;
+    border-bottom: solid #d391be;
+     width: 100%;
+    height: 20vh;
+     font-size: 18px;
+     border-radius: 11px;
+     background: radial-gradient(50% 50% at 50% 50%, rgba(190, 24, 162, 0.1), rgba(255, 255, 255, 0)), radial-gradient(50% 50% at 50% 50%, rgba(7, 155, 254, 0.1), rgba(255, 255, 255, 0)), #fff;
+
+}
+.projects h2 {
+    position: relative;
+    top:5%;
+    font-size: 19px;
+    left:3%;
+    color: #db1bbe;
+}
+.footer {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    bottom:0px;
+    width: 100%;
+    height: 144px;
+     background: radial-gradient(50% 50% at 50% 50%, rgba(190, 24, 162, 0.1), rgba(255, 255, 255, 0)), radial-gradient(50% 50% at 50% 50%, rgba(7, 155, 254, 0.1), rgba(255, 255, 255, 0)), #fff;
+     border-radius: 22px;
+    background-color:rgba(222, 61, 182, 0.1);
+}
+.foo{
+    position: relative;
+    top: 22px;
+}
+.co{
+    position: relative;
+    top: 33px;
+    left: 15%;
+}
+.foo2{
+    position: relative;
+    color: black;
+   font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+
+width: auto;
+}
+@media (max-width:1100px) {
+    .HOME{
+        width: 85%;
+        margin-left: 7.5%;
+    }
+    .back1{
+
+
+
+    }
+
+
+
+}
+
+    @media (max-width:900px) {
+.user-name input{
+
+
+}}
