@@ -44,7 +44,7 @@ Route::post('/comments/{post}', [CommentController::class, 'store'])->name('comm
 Route::get('users/delete-comment/{id}', [CommentController::class, 'deleteComment' ])->name('users.edit');
 
 // Users
-Route::get('users/add', [UserController::class, 'add'])->name('users.add');
+Route::get('users/add', [UserController::class, 'add'])->name('users.add')->middleware('auth');
 Route::get('users/edit-profile/{id}', [UserController::class, 'edit'])->name('users.edit');
 Route::put('users/update-profile/{id}', [UserController::class, 'update'])->name('users.update');
 Route::get('users/delete-image/{id}', [UserController::class, 'deleteImage'])->name('users.deleteImage');
