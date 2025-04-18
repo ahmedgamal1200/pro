@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\PostController;
@@ -7,9 +8,11 @@ use App\Http\Controllers\UserController;
 use App\Livewire\Chat;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+
 
 
 Route::get('/dashboard', function () {
